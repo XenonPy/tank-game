@@ -1,0 +1,39 @@
+{
+    "tanks":[
+        {
+            "name":"Cobra",
+            "description":"A basic, well-rounded tank. It's nothing special.",
+            "moves":[
+                {
+                    "name":"Basic Blast",
+                    "modifierEnemy":-5,
+                    "modifierSelf":0,
+                    "energyModifier":-1,
+                    "timeout":0
+                }
+            ],
+            "cost":0
+        },
+        {
+            "name":"Orca",
+            "description":"The powerful Orca can dish out either fast attacks or heavier blows",
+            "moves":[
+                {
+                    "name":"Speed Shell",
+                    "modifierEnemy":-4,
+                    "modifierSelf":0,
+                    "energyModifier":-1,
+                    "timeout":0
+                },
+                {
+                    "name":"Extreme Explosion",
+                    "modifierEnemy":-12,
+                    "modifierSelf":0,
+                    "energyModifier":-1,
+                    "timeout":1
+                }
+            ],
+            "cost":0
+        }
+    ]
+}

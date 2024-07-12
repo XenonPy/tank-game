@@ -9,6 +9,7 @@
 """
 def manual_reset():
     print(f"\e[0m")
+"""
 def tgprint(text, color="white", bold=False, autoreset=True):
     is_bold = int(bold)
     if color == "red":
@@ -27,9 +28,7 @@ def tgprint(text, color="white", bold=False, autoreset=True):
         print(f"\e[{is_bold};37m{text}")
     if autoreset:
         print("\e[0m")
-def print_title():
-    fcontent = ""
-    with open("title.txt", "r") as f:
-        fcontent = f.read()
-        f.close()
-    print(fcontent)
+"""
+
+def tgprint(text, color="white", bold=False, autoreset=True):
+    print(text)
